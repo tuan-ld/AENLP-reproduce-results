@@ -3,7 +3,7 @@ This repository contains the implementation of inference models from "Extraction
 
 # Requirements and Installation
 ``` bash
-git clone https://github.com/pytorch/fairseq
+git clone https://github.com/SiunKim/AENLP
 cd fairseq
 git checkout dd7499
 pip install .
