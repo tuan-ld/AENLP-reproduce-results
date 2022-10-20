@@ -1,8 +1,7 @@
 # AENLP
 This repository contains the implementation of NER inference demo from "Extraction of Comprehensive Drug Safety Information from Adverse Drug Event Narratives in Spontaneous Reporting System"
 
-
-![figure1_small](https://user-images.githubusercontent.com/53844800/196883572-c50382fb-1de0-4d5e-a834-9bb5d853e1ee.png)
+![figure1](https://user-images.githubusercontent.com/53844800/196883837-459ee966-e683-43f5-adc6-63d132999695.png)
 
 
 # Implement inference_demo.py through streamlit
