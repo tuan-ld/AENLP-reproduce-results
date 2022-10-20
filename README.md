@@ -10,5 +10,6 @@ pip install -r requirements.txt
 streamlit run inference_demo.py
 ```
 
-# License
-KAERS-BERT is MIT-licensed. The license applies to the pre-trained/fine-tuned models as well.
+
+# References
+ - Kim, S., & Kang, T. (2022). Extraction of Comprehensive Drug Safety Information from Adverse Drug Event Narratives in Spontaneous Reporting System. (under submission)
