@@ -15,8 +15,8 @@ streamlit run inference_demo.py
 ```python
 from KAERSBERTforNER import inference_NER
 ents = inference_NER('프라메딘 20mg 서방정을 2주간 복용한 환자에서 목 주변의 두드러기가 발생함.', print_result=True)
->>> 프라메딘/DrugCompound 20mg/DrugDose 서방정을/DrugRoAFormulation 2주간/DatePeriod 복용한 환자에서 목/AdverseEvent 주변의/AdverseEvent 
->>> 두드러기가/AdverseEvent 발생함.
+>>> 프라메딘/DrugCompound 20mg/DrugDose 서방정을/DrugRoAFormulation 2주간/DatePeriod 복용한 환자에서
+>>> 목/AdverseEvent 주변의/AdverseEvent 두드러기가/AdverseEvent 발생함.
 
 print(ents)
 >>> [{'text': '프라메딘', 'ent_type': 'DrugCompound', 'pos_start': 11, 'pos_end': 26},
