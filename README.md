@@ -6,8 +6,9 @@ This repository contains the implementation of NER inference demo from "Extracti
 
 # Implement inference_demo.py through streamlit
 ``` 
-pip install -r requirements.txt
-streamlit run inference_demo.py
+Step 1: pip install -r requirements.txt
+Step 2: download fine-tuned KAERS-BERT model configs from [google drive link](https://drive.google.com/drive/folders/1UioHU7Kg8fzSmzlOmvmt7kqtG6IhqygZ?usp=sharing), then put it into folder: model_configs/Link_for_downloading_model_configs.md
+Step 3: streamlit run inference_demo.
 ```
 
 # Example Usages
